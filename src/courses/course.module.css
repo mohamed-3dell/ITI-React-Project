@@ -1,0 +1,159 @@
+.main{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #f7f7f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px !important;
+    position: relative;
+    top: 100px;
+
+}
+.main .txt{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px !important;
+    border-bottom: 1px solid #97979a60;
+}
+.main .txt h3{
+    width: 40%;
+    font-size: 30px;
+    font-weight: 500;
+}
+.main .txt p{
+    width: 50%;
+    font-size: 12px;
+    font-weight: 300;
+}
+.main .boxes{
+    padding: 20px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.main .boxes .box{
+    padding: 20px !important;
+    background-color: white;
+    border-radius: 7px ;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    flex-direction: column;
+}
+.main .boxes .box .text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px ;
+    flex-wrap: wrap;
+}
+.main .boxes .box .text .tx{ 
+    width: 80%;   
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+
+
+}
+.main .boxes .box .text .tx p{
+    font-size: 15px;
+    font-weight: 300;
+    letter-spacing: .9px;
+}
+.main .boxes .box .text .tx h4{
+    font-weight: 500;
+}
+.main .boxes .box .text a,button{
+    text-decoration: none;
+    padding: 10px !important;
+    background-color: #f7f7f8;
+    border: 1px solid transparent;
+    border-radius: 7px ;
+    cursor: pointer;
+    color: #333;
+}
+.main .boxes .box .imgs {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 90%;
+}
+.im {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    /* flex-direction: column; */
+}
+.main .boxes .box .imgs img{
+    max-width: 300px;
+}
+.main .boxes .box .im img{
+    max-width: 80px;
+}
+.main .boxes .box .spans {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    width: 90%;
+}
+.main .boxes .box .spans span{
+    padding: 5px !important;
+    background-color: #f7f7f8;
+    font-size: 12px;
+    color: #333;
+}
+.main .boxes .box .plan{
+    width: 80%;
+    min-height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+
+}
+.plan h4{
+    padding: 10px !important;
+    border: 1px solid #33333332;
+    width: auto !important;
+    border-radius: 7px;
+
+}
+.plan .weeks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.plan .weeks .one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px !important;
+    gap: 20px;
+    border: 1px solid #33333332;
+    /* border-radius: 7px; */
+    /* border-top: 1px solid transparent; */
+}
+.plan .weeks .one p{
+    max-width: 300px;
+    font-size: 12px;
+}
+.plan .weeks .one h5{
+    font-size: 20px;
+    align-items: flex-end;
+    display: flex;
+    justify-content: center;
+}
+

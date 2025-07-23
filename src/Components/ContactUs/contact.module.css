@@ -1,0 +1,92 @@
+.main{
+    width: 100%;
+    padding: 20px !important;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f7f7f8;
+    position: relative;
+    top: 100px;
+    gap: 20px;
+}
+.main .txt{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px !important;
+    border-bottom: 1px solid #97979a60;
+}
+.main .txt h3 ,.bebox h3{
+    width: 40%;
+    font-size: 30px;
+    font-weight: 500;
+}
+.main .txt p {
+    width: 50%;
+    font-size: 12px;
+    font-weight: 300;
+}
+.msg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.msg form {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px !important;
+    width: 750px;
+    border-right: 1px solid #bebec173;
+}
+.msg form .two{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+.msg form .two input{
+    width: 50%;
+}
+form .btt{
+    padding: 10px !important;
+    border: 1px solid transparent;
+    cursor: pointer;
+    background-color: #ff9500;
+    color: #f7f7f8;
+}
+.info{
+    padding: 20px !important;
+    background-color: white;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.info .box{
+    padding: 19px !important;
+    background-color: #f7f7f8;
+    width: 230px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.info .box svg{
+
+    color: #333;
+    border-radius: 7px;
+    
+}

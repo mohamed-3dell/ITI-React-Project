@@ -1,0 +1,243 @@
+.main{
+    width: 100%;
+    padding: 20px !important;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f7f7f8;
+    position: relative;
+    top: 100px;
+    gap: 20px;
+}
+.main .txt{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px !important;
+    border-bottom: 1px solid #97979a60;
+}
+.main .txt h3 ,.bebox h3{
+    width: 40%;
+    font-size: 30px;
+    font-weight: 500;
+}
+.main .txt p {
+    width: 50%;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.toggle {
+  margin-top: 20px !important;
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  display: inline-flex;
+  border: 1px solid #ddd;
+}
+
+.toggle button {
+  padding: 10px 20px !important;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: #666;
+}
+
+.toggle .active {
+  background-color: #ff9500;
+  color: white;
+}
+
+.plans {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.plan {
+  background: white;
+  padding: 10px !important;
+  max-width: 520px;
+  height: 750px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ddd;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.planTitle {
+  background: #fff4e6;
+  max-width: 70%;
+  text-align: center;
+  color: #404040;
+  font-weight: 600;
+  padding: 8px 20px !important;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.plan h1 {
+  font-size: 40px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.plan h1 span {
+  font-size: 16px;
+  color: #666;
+}
+
+.features {
+  width: 100%;
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.features .correct{
+  padding: 5px !important;
+  border: 1px solid transparent;
+  margin: 5px !important;
+  background-color: #ff950064;
+  border-radius: 5px;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  /* margin-bottom: 15px !important; */
+
+}
+
+.features h4 {
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #333;
+  font-weight: 600;
+}
+
+.features p {
+  width: 70%;
+  height: 50px;
+  border-radius: 5px;
+  padding: 5px !important;
+  font-size: 15px;
+  color: #333;
+  margin: auto  !important;
+}
+.big{
+  background-color: #f7f7f8;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px !important;
+}
+.big .questions{
+  width: 80%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 20px !important;
+  border-radius: 8px;
+}
+.big .questions .left{
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 5px;
+}
+.big .questions .left h2{
+  max-width: 200px;
+  font-size: 25px;
+  letter-spacing: .3px;
+  font-weight: 700;  
+}
+.big .questions .left p{
+  max-width: 200px;
+  font-size: 10px;
+  font-weight: 300;
+}
+.big .questions .left button{
+  padding: 10px !important;
+  background-color: #f7f7f861;
+  border: 1px solid transparent;
+  cursor: pointer;
+  color: #333;
+}
+.big .questions .right{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.right .ex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px !important;
+  gap: 10px;
+  border: 1px solid #40404025;
+  border-radius: 7px;
+}
+.ex p:first-child{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  font-weight: 600;
+  border-bottom: 1px solid #404040;
+}
+.ex p svg, .ex h4 svg,.plus svg{
+    padding: 5px !important;
+  border: 1px solid transparent;
+  margin: 5px !important;
+  background-color: #ff950064;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.ex h6{
+  font-weight: 300;
+  font-size: 10px;
+  max-width: 350px;
+}
+.ex h4{
+  padding: 10px !important;
+  background-color: #f7f7f8;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+}
+.ex h4 svg{
+  border-radius: 12px;
+  background-color: #e0e0e0;
+  color: #404040;
+}
+.plus{
+  padding: 10px !important;
+    border: 1px solid #40404025;
+  border-radius: 7px;
+  max-width: 360px;
+}
+.plus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

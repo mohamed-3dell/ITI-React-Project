@@ -1,0 +1,108 @@
+.main{
+    width: 100%;
+    padding: 20px !important;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f7f7f8;
+    position: relative;
+    top: 100px;
+    gap: 20px;
+}
+.main .txt{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px !important;
+    border-bottom: 1px solid #97979a60;
+}
+.main .txt h3 ,.bebox h3{
+    width: 40%;
+    font-size: 30px;
+    font-weight: 500;
+}
+.main .txt p ,.bebox p{
+    width: 50%;
+    font-size: 12px;
+    font-weight: 300;
+}
+.main .bebox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.bebox p{
+    width: 100%;
+}
+.boxes {
+    width: 70%;
+    padding: 10px !important;
+    min-height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.boxes .box{
+    padding: 20px !important;
+    background-color: white;
+    border-radius: 7px;
+    max-width:450px ;
+
+
+}
+.boxes .box svg{
+    background-color: #ffeacc;
+    padding: 5px !important;
+    width: 30px;
+    height: 30px;
+    border-radius: 7px;
+    color: #ff9500;
+}
+.mini{
+    position: relative;
+    padding: 15px 20px !important;
+    background-color: white;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.mini .tex{
+    max-width: 70%;
+    z-index: 1;
+
+}
+.mini .tex h3{
+    font-size: 25px;
+    font-weight: 500;
+}
+.mini .tex h3 span{
+    font-size: 28px ;
+    color: #ff9500;
+}
+.mini .tex p{
+    font-size: 12px;
+    font-weight: 300;
+}
+.mini button{
+    background-color: #ff9500;
+    color: #f7f7f8;
+    z-index: 99;
+}
+.mini img{
+    position: absolute;
+    width:140px;
+    height: 140px;
+    top: 5px;
+    right: 15%;
+    z-index: 1;
+}
