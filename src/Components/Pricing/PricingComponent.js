@@ -1,4 +1,3 @@
-import React from "react";
 import pricingStyle from "./pricing.module.css";
 import { IoMdCheckmark } from "react-icons/io";
 import { IoCloseOutline } from "react-icons/io5";

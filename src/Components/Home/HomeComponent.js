@@ -1,5 +1,10 @@
+// src/Components/Home/HomeComponent.js
 import React, { useEffect, useState } from 'react'
+
+// Importing styles
 import homeStyles from './home.module.css'
+
+// Importing images
 import icon from '../../imgs/Icon Container.png'
 import logo from '../../imgs/Logoo.png'
 import logo1 from '../../imgs/Logo (1).png'
@@ -15,6 +20,8 @@ import image2 from '../../imgs/Image (2).png'
 import image3 from '../../imgs/Image (3).png'
 import image4 from '../../imgs/Image (4).png'
 import image5 from '../../imgs/Image (5).png'
+
+// Importing icons
 import { LuArrowUpRight } from "react-icons/lu";
 import { IoMdCheckmark } from "react-icons/io";
 import { IoCloseOutline } from "react-icons/io5";
@@ -22,7 +29,11 @@ import { FaPlus } from "react-icons/fa6";
 import { FaArrowRight } from "react-icons/fa";
 
 const HomeComponent = () => {
+
+  // [1] useState to handle responsive design
   const [size ,setsize]=useState(false)
+
+  // [2] useEffect to handle window resize
   useEffect(()=>{
     window.addEventListener("resize",()=>{
       let size =window.innerWidth

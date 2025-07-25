@@ -9,16 +9,19 @@ const Nav = () => {
   const [menu, setmenu] = useState(false);
   const [size, setsize] = useState(false);
   const [close, setclose] = useState(false);
+
   useEffect(() => {
     window.addEventListener("resize", () => {
       let size = window.innerWidth;
       size <= 850 ? setsize(true) : setsize(false);
     });
   });
+
   const change = () => {
     setmenu(!menu);
     setclose(!close);
   };
+  
   return (
     <div className="main">
       <div className="top">

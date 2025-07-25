@@ -9,15 +9,22 @@ import img33 from "../imgs/courses/Image33.png";
 import img21 from "../imgs/courses/Image21.png";
 import img12 from "../imgs/courses/Image21 (3).png";
 import img23 from "../imgs/courses/Image23.png";
+
 import { Link } from "react-router-dom";
 const CourseComponent = () => {
+
+  // [1] useState to handle responsive design
   const [size, setsize] = useState(false);
+
+  // [2] useEffect to handle window resize
   useEffect(() => {
     window.addEventListener("resize", () => {
       let size = window.innerWidth;
       size <= 850 ? setsize(true) : setsize(false);
     });
-  });
+  }, []);
+
+
   return (
     <div
       className={coursestyle.main}
